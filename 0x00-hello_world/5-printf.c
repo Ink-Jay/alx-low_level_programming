@@ -2,7 +2,7 @@
 
 /**
  * main -prits with proper grammer, but the outcome is a piece of work
- * return : 0 if exited properly
+ * Return : 0 if exited properly
  */
 
 int main(void)
