@@ -15,3 +15,4 @@ putchar(alph);
 }
 putchar('\n');
 return (0);
+}
