@@ -18,6 +18,17 @@ printf(", ");
 }
 }
 }
+else if (n >98)
+{
+for(; n >= 98; n--)
+{
+printf("%d\n", n);
+if (n != 98)
+{
+printf(", ");
+}
+}
+}
 else
 {
 printf("%d", n);
