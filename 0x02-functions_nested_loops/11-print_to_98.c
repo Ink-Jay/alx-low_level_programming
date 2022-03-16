@@ -1,4 +1,4 @@
-/
+
 #include <stdio.h>
 
 /**
@@ -14,8 +14,7 @@ for(; n >= 98; n--)
 printf("%d\n", n);
 if (n != 98)
 {
-putchar(',');
-putchar(' ');
+printf(", ");
 }
 }
 }
