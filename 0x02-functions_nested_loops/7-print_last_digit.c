@@ -1,4 +1,4 @@
-
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -13,6 +13,6 @@ if (n < 0)
 
 n = -n;
 lastDigit = n % 10;
-putchar(lastDigit + '0');
+_putchar(lastDigit + '0');
 return (lastDigit);
 }
