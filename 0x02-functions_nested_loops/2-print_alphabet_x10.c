@@ -13,8 +13,8 @@ for (i = 0; i <= 9; i++)
 {
 for (alph = 'a'; alph <= 'z'; alph++)
 {
-_putchar(alph);
+putchar(alph);
 }
-_putchar('\n');
+putchar('\n');
 }
 }
