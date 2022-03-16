@@ -2,10 +2,12 @@
 #include <stdio.h>
 
 /**
-  *add - sums two integers
+  * add - sums two integer
+  * @a: first integer
+  * @b: second integer
   * Return: result
   */
-int add (int a, int b)
+int add(int a, int b)
 {
 int result;
 result = a + b;

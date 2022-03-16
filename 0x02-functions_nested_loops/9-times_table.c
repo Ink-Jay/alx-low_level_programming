@@ -22,7 +22,7 @@ putchar((product % 10) + '0');
 }
 else
 {
-putchar(',');
+putchar('');
 putchar(product + '0');
 }
 if (col != 9)
