@@ -3,6 +3,7 @@
 
 /**
   * print_to_98 - prints all natural numbers betwwen n and 98
+  * @n: starting point
   * Return: vod
   */
 void print_to_98(int n)
