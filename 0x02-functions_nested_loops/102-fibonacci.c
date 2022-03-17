@@ -15,7 +15,10 @@ int i;
 for (i = 0; i < 50; i++)
 {
 printf("%ld", a);
+if (i != 50)
+{
 printf(", ");
+}
 c = a + b;
 a = b;
 b = c;
