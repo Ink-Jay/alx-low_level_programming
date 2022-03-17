@@ -21,7 +21,7 @@ printf(", ");
 }
 else
 {
-printf(" ")
+printf(" ");
 }
 c = a + b;
 a = b;
