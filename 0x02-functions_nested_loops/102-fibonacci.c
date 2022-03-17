@@ -19,13 +19,11 @@ if (i != 49)
 {
 printf(", ");
 }
-else
-{
-printf(" ");
-}
+
 c = a + b;
 a = b;
 b = c;
 }
+printf("\n");
 return (0);
 }
