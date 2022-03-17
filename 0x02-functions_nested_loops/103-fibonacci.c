@@ -7,15 +7,15 @@
   */
 int main(void)
 {
-int a = 1;
-int b = 2;
-int c;
-int sum = 0;
-while (a <4000000)
+long int a = 1;
+long int b = 2;
+long int c;
+long int sum = 0;
+while (a < 4000000)
 {
 if (a % 2 == 0)
 {
-sum =+ a;
+sum = sum + a;
 }
 c = a + b;
 a = b;
