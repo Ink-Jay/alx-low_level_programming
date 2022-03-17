@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  *main - prints integers and fuzzbuzz
+  *main - prints integers and fizzbuzz
   * Return: void
   */
 int main(void)
