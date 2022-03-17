@@ -9,10 +9,11 @@ int main(void)
 {
 int a = 1;
 int b = 2;
+int c;
 int sum = 0;
 while (a <4000000)
 {
-if (a % 0 == 0)
+if (a % 2 == 0)
 {
 sum =+ a;
 }
