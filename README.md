@@ -1,2 +1,4 @@
-alx-low-level_programming
-\
+C-Arrays
+C-Pointers
+C-Strings
+Memory layout
