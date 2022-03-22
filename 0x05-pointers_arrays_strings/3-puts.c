@@ -13,4 +13,5 @@ while
 _putchar(*str);
 str++;
 }
+_putchar('\n');
 }
