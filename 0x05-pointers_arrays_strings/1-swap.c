@@ -14,5 +14,5 @@ c = *a;
 *a = *b;
 *b = c;
 
-return (0);
+return ();
 }
