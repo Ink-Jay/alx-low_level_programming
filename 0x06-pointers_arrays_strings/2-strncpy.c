@@ -3,12 +3,12 @@
 /**
  * _strncpy - appends two strings
  * @dest:  destination
- * @src: sting to copy
+ * @src: string to copy
  * @n: number of characters to copy
  * Return: pointer to resulting string
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 
 int length;
