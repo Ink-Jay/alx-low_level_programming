@@ -17,9 +17,11 @@ while ( dest[length] != '\0')
 {
 length++;
 }
-for (j = 0; src[j] != '\0'; j++; length++)
+while (src[j] != '\0') 
 {
 dest[length] = src[j];
+j++;
+length++;
 }
 
 dest[length] = '\0';
