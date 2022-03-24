@@ -4,14 +4,17 @@
  * _strcat - appends two strings
  * @dest: string to append to
  * @src: sting to be appended to
- * Return: resulting string
+ * Return: pointer to resulting string
  */
 
 char *_strcat(char *dest, char *src)
 {
 
-int length = 0;
-int j = 0;
+int length;
+int j;
+
+length = 0;
+j = 0;
 
 while ( dest[length] != '\0')
 {
