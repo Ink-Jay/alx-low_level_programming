@@ -9,9 +9,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-int length, j;
-length = 0;
-j = 0;
+
+int length = 0;
+int j = 0;
 
 while ( dest[length] != '\0')
 {
