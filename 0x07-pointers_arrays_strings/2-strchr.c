@@ -14,11 +14,11 @@ while (*s)
 {
 if (*s != c)
 {
-s++
+s++;
 }
 else
 {
-return (s)
+return (s);
 }
 }
 if (c == '\0')
