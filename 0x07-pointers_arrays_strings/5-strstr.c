@@ -30,7 +30,7 @@ if (i != s)
 {
 haystack++;
 }
-else 
+else
 {
 return (haystack);
 }
