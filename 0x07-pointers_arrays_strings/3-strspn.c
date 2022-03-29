@@ -12,9 +12,9 @@ unsigned int _strspn(char *s, char *accept)
 int i, j;
 int c = 0;
 
-for ( i = 0; i != '\0'; i++)
+for (i = 0; i != '\0'; i++)
 {
-if ( s[i] != 32)
+if (s[i] != 32)
 {
 for (j = 0; j != '\0'; j++)
 {
@@ -26,8 +26,8 @@ if (s[i] == accept[j])
 }
 else
 {
-return c;
+return (c);
 }
 }
-return c;
+return (c);
 }
